@@ -1,9 +1,9 @@
 <div class="box">
 	<div class="box-header">
-		
+		<h3>Input User</h3>
 	</div>
 	<div class="col-md-10">
-		<form>
+		<form method="post" action="index.php?page=machine&action=plus">
 			<div class="col-lg-3">
 				<label for="name">
 					Nama
@@ -36,14 +36,23 @@
 					<?php
 						echo "<option value='0'>-</option>";
 						$data = $base->select("level");
-						$data->fetch();
-						foreach ($data as $key => $value) {
-						echo "<option value='$key'>$value</option>";
+						// $q=;
+						// foreach ($q as $key => $value) {
+						// }
+						try {
+							while ($row=$data->fetch(PDO::FETCH_ASSOC)) {
+								echo "<option value='$row[id]'>$row[name]</option>";
+							}
+						} catch (PDOException $e) {
+							die($e->getMessage());
 						}
 					?>
 				</select>
 			</div>
-			<button class="btn btn-primary">Save</button>
+			<div class="col-md-5">
+				<input type="button" name="save" value="save">
+			<!-- <button class="btn btn-primary">Save</button> -->
+			</div>
 		</form>
 	</div>
 </div>

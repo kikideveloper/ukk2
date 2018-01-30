@@ -1,9 +1,12 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-grid.min.css">
 <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-reboot.min.css">
-<link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/dataTables.boodtrap.css">
-<!-- <link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/dataTables.boodtrap4.css"> -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/dataTables.bootstrap.css">
+<link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/dataTables.bootstrap4.css">
 <link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/dataTables.foundation.css">
 <link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/dataTables.jqueryui.css">
 <link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/dataTables.material.css">
@@ -11,7 +14,7 @@
 <link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/dataTables.uikit.css">
 <link rel="stylesheet" type="text/css" href="assets/vendor/datatables/css/jquery.dataTables_themeroller.css">
 <link rel="stylesheet" type="text/css" href="assets/vendor/datatables-plugins/dataTables.bootstrap.css">
-<link rel="stylesheet" type="text/css" href="assets/vendor/datatables-plugins/dataTables.responsive.css">
+<link rel="stylesheet" type="text/css" href="assets/vendor/datatables-responsive/dataTables.responsive.css">
 <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/font-awesome.css">
 
 <script type="text/javascript" src="assets/vendor/datatables/js/jquery.js"></script>

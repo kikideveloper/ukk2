@@ -17,7 +17,7 @@ include "lib/query.php";
 	 				<?php include "main/sidebar.php"; ?>
 	 			</section>
 	 		</aside>
-	 		<div class="content-wrapper">
+	 		<div class="container-fluid">
 	 			<?php
 	 			$pages = isset($_GET['page'])?$_GET['page']:"dashboard";
 	 			include "pages/".$pages.".php";

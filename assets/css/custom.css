@@ -3,7 +3,7 @@
 }
 body{
 	padding: 0;
-	text-decoration: calibri;
+	text-decoration: Helvetica Neue;
 }
 h1{
 	text-decoration: century ghotic;
@@ -36,9 +36,9 @@ header{
 	float: right;
 }
 .main-sidebar{
-	float: left;
+	float: right;
 	width: 240px;
-	height: 100%;
+	height: -webkit-fill-available;
 	background-color: #ded9d9;
 }/*
 .navbarku{
